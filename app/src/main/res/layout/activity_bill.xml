@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bill"
+    tools:context=".Bill">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70pt"
+        android:id="@+id/textview5"
+        android:layout_marginRight="250dp"
+        android:background="@drawable/ed"
+        android:text="Total bill"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext4"
+        android:background="@drawable/ed"
+        android:layout_marginLeft="250dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignBaseline="@+id/textview5"
+        android:textSize="25dp"
+        android:hint="Enter the amount"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textColorHint="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ed"
+        android:id="@+id/textview6"
+        android:layout_marginRight="240dp"
+        android:layout_marginTop="125pt"
+        android:text="Number of people"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ed"
+        android:layout_marginLeft="250dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edittext5"
+        android:layout_alignBaseline="@+id/textview6"
+        android:textColorHint="@color/black"
+        android:hint="Enter number"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="25dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100pt"
+        android:layout_marginLeft="100pt"
+        android:layout_centerHorizontal="true"
+        android:text="Split"
+        android:id="@+id/button6"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ed"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50pt"
+        android:id="@+id/textview7"
+        android:layout_marginRight="100pt"
+        android:layout_marginLeft="20dp"
+        android:text="Per head"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ed"
+        android:id="@+id/textview8"
+        android:layout_alignBaseline="@+id/textview7"
+        android:layout_marginLeft="100pt"
+        android:layout_marginRight="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/lottie3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        app:lottie_rawRes="@raw/bill"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_back_25"
+        android:layout_marginTop="20dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/back"/>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/front"
+    tools:context=".First">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        android:text="Wishlist"
+
+        android:layout_marginRight="30dp"
+
+        android:gravity="center" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:text="SOS"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/button5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="175dp"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:text="Bill Splitter"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="65dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/trip" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="hello"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:fontFamily="@font/regular"/>
+
+
+
+
+
+</RelativeLayout>
